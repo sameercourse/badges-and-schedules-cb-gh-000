@@ -7,7 +7,7 @@ end
 
 
 
-def batch_badge_createor(arr)
+def batch_badge_creator(arr)
   
   arr1=[];
   
@@ -38,7 +38,7 @@ end
 
 def printer(arr)
   
-  batch_badge_createor(arr)
+  batch_badge_creator(arr)
   assign_rooms(arr)
   
   
