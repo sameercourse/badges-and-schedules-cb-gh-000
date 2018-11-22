@@ -39,7 +39,11 @@ end
 
 def printer(arr=["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
   
-  batch_badge_creator(arr)
+  (batch_badge_creator(arr)).each do |str|
+
+  puts str 
+
+  end 
   assign_rooms(arr).each do |str|
     puts str
     
