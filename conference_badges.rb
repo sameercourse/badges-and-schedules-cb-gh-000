@@ -28,7 +28,7 @@ def assign_rooms(arr)
   arr.each_with_index do |value,index| 
   
     arr1.push("Hello, #{value}! You'll be assigned to room #{index+1}!")
-    "Hello, #{value}! You'll be assigned to room #{index+1}!"
+   
     
   end
   return arr1
@@ -40,7 +40,10 @@ end
 def printer(arr=["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
   
   batch_badge_creator(arr)
-  assign_rooms(arr)
+  assign_rooms(arr).each do |str|
+    puts "#{str}"
+    
+  end 
   
   
 end 
