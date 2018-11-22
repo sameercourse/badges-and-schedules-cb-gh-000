@@ -41,7 +41,7 @@ def printer(arr=["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
   
   batch_badge_creator(arr)
   assign_rooms(arr).each do |str|
-    puts "#{str}"
+    puts str
     
   end 
   
