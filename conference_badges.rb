@@ -21,12 +21,13 @@ def batch_badge_createor(arr)
   
 end 
 
-de
-arr1=[]
-roos(arr)
+def assign_rooms(arr)
+  
+  arr1=[]
   
   arr.each do |str| 
   
+    arr1.push("")
     
   end
   
